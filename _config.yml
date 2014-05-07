@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: true
 markdown: rdiscount
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -128,3 +128,18 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+menuitems:
+    - name:          首页
+      url:          /index.html
+    - name:         分类
+      url:          /categories.html
+    - name:         标签
+      url:          /tags.html
+    - name:         归档
+      url:           /archive.html          
+    - name:         技术学习
+      url:           /reading.html          
+    - name:         生活
+      url:           /working.html          
+    - name:         关于
+      url:           /about.html    
