@@ -4,7 +4,7 @@ title: "[转]利用 Zsync 更新已有的 Ubuntu ISO 镜像"
 tagline: "曾经转到精弘里的贴"
 description: "利用 Zsync 更新已有的 Ubuntu ISO 镜像"
 category: study
-tags: [Ubuntu]
+tags: [转, Ubuntu]
 ---
 {% include JB/setup %}
 
