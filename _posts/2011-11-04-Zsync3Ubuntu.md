@@ -34,71 +34,72 @@ tags: [转, Ubuntu]
 
 ========================32 位桌面版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-desktop-i386.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-desktop-i386.iso.zsync
 
 ========================64 位桌面版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-desktop-amd64.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-desktop-amd64.iso.zsync
 
 ========================32 位 Alternate 版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-alternate-i386.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-alternate-i386.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-alternate-i386.iso.zsync
 
 ========================64 位 Alternate 版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-alternate-amd64.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-alternate-amd64.iso.zsync
 
 ========================32 位上网本(Netbook Remix)版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-netbook-remix-i386.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-netbook-remix-i386.iso.zsync
 
 ========================32 位服务器版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-server-i386.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-server-i386.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-server-i386.iso.zsync
 
 ========================64 位服务器版=================================
 
-zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-server-amd64.iso.zsync
-zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://mirrors.cat.pdx.edu/ubuntu-releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://ftp.usf.edu/pub/ubuntu-releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://mirror.as29550.net/releases.ubuntu.com/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://mirror.anl.gov/pub/ubuntu-iso/CDs-Ubuntu/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://ubuntu.osuosl.org/releases/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://mirrors.xmission.com/ubuntu-cd/9.10/ubuntu-9.10-server-amd64.iso.zsync
+	zsync http://ubuntu.inode.at/cdimage/karmic/ubuntu-9.10-server-amd64.iso.zsync
+
 { Source. Thanks Yunkwan. }
