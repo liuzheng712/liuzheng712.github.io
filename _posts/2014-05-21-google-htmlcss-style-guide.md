@@ -3,7 +3,7 @@ layout: post
 title: "Google HTML/CSS Style Guide"
 description: ""
 category: code
-tags: [代码规范, Google, HTML/CSS]
+tags: [代码规范, Google, HTML/CSS, style guide]
 ---
 {% include JB/setup %}
 
