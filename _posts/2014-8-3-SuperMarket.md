@@ -3,7 +3,7 @@ layout: post
 title: "超市里的潜规则"
 tagline: ""
 description: "超市里的潜规则"
-category: 生活
+category: life
 tags: [生活]
 ---
 {% include JB/setup %}
