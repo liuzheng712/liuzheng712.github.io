@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "dailyShell"
-description: "dailyShell"
+title: "Daily Shell"
+description: "Daily Shell"
 category: dailyShell
 tags: [dailyShell]
 ---
