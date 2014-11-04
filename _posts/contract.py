@@ -62,7 +62,16 @@ def download(filename, url):
 
 
 def getList():
-    response = urllib2.urlopen('http://www.64365.com/contract/tdzyht/')
+    url = 'http://www.64365.com/contract/tdzyht/'
+    req = urllib2.Request(url)
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0')
+    req.add_header('Host', 'www.64365.com')
+    req.add_header('Connection', 'keep-alive')
+    req.add_header('Cache-Control', 'max-age=0')
+    req.add_header('Accept-Language', 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3')
+    req.add_header('Accept-Encoding', 'gzip, deflate')
+    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')
+    response = urllib2.urlopen(req)
     soup = BeautifulSoup(response.read())
     leftBar = soup.findAll('ul')[2]
     Chapter = []
@@ -80,7 +89,15 @@ def getList():
 
 
 def getDownlink(url):
-    response = urllib2.urlopen(url)
+    req = urllib2.Request(url)
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0')
+    req.add_header('Host', 'www.64365.com')
+    req.add_header('Connection', 'keep-alive')
+    req.add_header('Cache-Control', 'max-age=0')
+    req.add_header('Accept-Language', 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3')
+    req.add_header('Accept-Encoding', 'gzip, deflate')
+    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')
+    response = urllib2.urlopen(req)
     soup = BeautifulSoup(response.read())
     link = getLink(url)
     for i in soup.select(".page")[0].select("a"):
@@ -90,7 +107,15 @@ def getDownlink(url):
 
 
 def getLink(url):
-    response = urllib2.urlopen(url)
+    req = urllib2.Request(url)
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0')
+    req.add_header('Host', 'www.64365.com')
+    req.add_header('Connection', 'keep-alive')
+    req.add_header('Cache-Control', 'max-age=0')
+    req.add_header('Accept-Language', 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3')
+    req.add_header('Accept-Encoding', 'gzip, deflate')
+    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')
+    response = urllib2.urlopen(req)
     soup = BeautifulSoup(response.read())
     link = []
     for i in soup.select(".comp-list")[0].select(".xia"):
@@ -106,7 +131,10 @@ def mkdir(path):
 if __name__ == '__main__':
     # main()
     # url = 'http://www.64365.com/article/contract/down_283.aspx'
-    PATH = 'D:/contract'
+    if os.name == 'posix':
+        PATH = '/opt/yun/contract'
+    else:
+        PATH = 'Z:/contract'
     q = re.compile(r'filename=(.*)')
     mkdir(PATH)
     list = getList()
