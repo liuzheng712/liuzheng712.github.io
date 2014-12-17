@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux System Administrator"
+title: "实验室集群重装Plan"
 description: ""
 category:
 tags: [SA]
