@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daily Shell"
+title: "shell变量"
 description: "Daily Shell"
 category: dailyShell
 tags: [dailyShell]
@@ -21,5 +21,3 @@ shell变量
     ${varname%%key}  从尾开始删除关键词，执行最长匹配
     ${varname/old/new}  将old替换为new，仅替换第一个出现的old
     ${varname//old/new}  将old替换为new，替换所有old
-    
-

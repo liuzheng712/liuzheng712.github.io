@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "dailyshell"
+title: "ubuntu启动声卡不工作"
 description: ""
-category: 
+category:
 tags: [alsa]
 ---
 {% include JB/setup %}

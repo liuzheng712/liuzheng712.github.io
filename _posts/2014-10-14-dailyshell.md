@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daily Shell"
+title: "某日志处理"
 description: "Daily Shell"
 category: dailyShell
 tags: [dailyShell]

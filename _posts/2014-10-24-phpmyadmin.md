@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "phpmyadmin"
+title: "phpmyadmin去除iframe限制"
 description: ""
-category: 
+category:
 tags: [phpmyadmin]
 ---
 {% include JB/setup %}
