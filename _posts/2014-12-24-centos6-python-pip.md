@@ -23,9 +23,9 @@ epel是标配大家都懂的，这里就顺手加一下，以后查起来便利�
 
     yum install centos-release-SCL
 
-.
+官方原话
 
-    Currently, the following collections are available for CentOS 6.5 and later (package name in parenthesis):
+`Currently, the following collections are available for CentOS 6.5 and later (package name in parenthesis):`
 
 
     Ruby 1.9.3 (ruby193)
