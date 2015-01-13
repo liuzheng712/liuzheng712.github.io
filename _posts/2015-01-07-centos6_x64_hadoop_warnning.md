@@ -14,7 +14,7 @@ tags: [hadoop]
 
 # 编译环境安装
 
-    yum install cmake lzo-devel zlib-devel gcc autoconf automake libtool ncurses-devel  openssl-devel
+    yum install cmake lzo-devel zlib-devel gcc autoconf automake libtool ncurses-devel  openssl-devel gcc-c++
 
 
 # maven 配置
