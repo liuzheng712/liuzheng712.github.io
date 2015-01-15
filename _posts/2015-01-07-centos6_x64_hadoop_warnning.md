@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CentOS6_x64_Hadoop_warnning"
+title: "CentOS6 x64 Hadoop编译"
 description: ""
 category:
 tags: [hadoop]
@@ -27,8 +27,8 @@ tags: [hadoop]
 
 在/etc/profile后追加
 
-    MAVEN_HOME=/usr/local/maven
-    PATH=$MAVEN_HOME/bin:$PATH
+    export MAVEN_HOME=/usr/local/maven
+    export PATH=$MAVEN_HOME/bin:$PATH
 
 source一下
 
@@ -44,8 +44,8 @@ source一下
 需要gcc-c++
 在网站 http://code.google.com/p/protobuf/downloads/list上可以下载 Protobuf 的源代码,目前最新版本是2.4.1.解压缩,编译,步骤如下:
 
-    tar -xzf protobuf-2.1.0.tar.gz
-    cd protobuf-2.1.0
+    tar -xzf protobuf-2.4.1.tar.gz
+    cd protobuf-2.4.1
     ./configure --prefix=/usr/local/protobuf
     make
     make check
@@ -53,8 +53,8 @@ source一下
 
 在/etc/profile后追加
 
-    PROTO_HOME=/usr/local/protobuf
-    PATH=$PROTO_HOME/bin:$PATH
+    export PROTO_HOME=/usr/local/protobuf
+    export PATH=$PROTO_HOME/bin:$PATH
 
 
 # 安装Ant
@@ -62,8 +62,8 @@ source一下
     wget http://mirrors.sonic.net/apache/ant/binaries/apache-ant-1.9.4-bin.tar.gz
 解压并在/usr/local/下做软连
 
-    ANT_HOME=/usr/local/ant
-    PATH=$PATH:$ANT_HOME/bin
+    export ANT_HOME=/usr/local/ant
+    export PATH=$PATH:$ANT_HOME/bin
 
 # 准备编译
 
