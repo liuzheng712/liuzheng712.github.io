@@ -7,11 +7,11 @@ tags: []
 ---
 {% include JB/setup %}
 
-最近发现一个插件，(gooreplacer)[https://github.com/jiacai2050/gooreplacer4chrome]
+最近发现一个插件，[gooreplacer](https://github.com/jiacai2050/gooreplacer4chrome)
 
 这个插件理论上是重定向用的，不过我就把某些网址重定向一下，那么就大家懂的啦
 
-自行下载导入，(Download link)[//ilz.me/img/gooreplacer.gson]
+自行下载导入，[Download link](//ilz.me/img/gooreplacer.gson)
 
 ad block 部分：
 
