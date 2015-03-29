@@ -16,3 +16,4 @@ tags: [leetcode,python]
     else:
         return C[l/2]
 
+Runtime: 133 ms
