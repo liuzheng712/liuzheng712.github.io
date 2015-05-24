@@ -1,9 +1,9 @@
 ---
-layout:post
-title:"[转]王小波经典语录"
-description:""
+layout: post
+title: "[转]王小波经典语录"
+description: ""
 category:
-tags:[life]
+tags: [life]
 ---
 {% includeJB/setup %}
 
