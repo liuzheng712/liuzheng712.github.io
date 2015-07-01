@@ -3,7 +3,7 @@ layout: post
 title: "Leap second"
 description: ""
 category: 
-tags: []
+tags: [运维]
 ---
 {% include JB/setup %}
 
@@ -30,5 +30,4 @@ tags: []
 据说是闰秒过后，系统本该调用 clock_was_set ，但是bug 的kernel没有调用
 
 我觉得此文日后绝对用不到了，还是mark一下，以后查完kernel版本就淡定的let it go吧！
-
 
