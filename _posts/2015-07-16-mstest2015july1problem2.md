@@ -73,3 +73,65 @@ Max : \sum q_i \\\\
 s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
+    def getPrime(prime, num):
+        res = prime[-1]
+        while res < num:
+            res = res + 1
+            p = True
+            for i in prime:
+                if res % i == 0:
+                    p = False
+                    break
+            if p:
+                prime.append(res)
+                return prime
+        return prime
+    
+    
+    def main():
+        a = input()
+        prime = [2]
+        result = []
+        index = 0
+        while True:
+            if index >= 0 and len(prime) > index and a / prime[index] >= 1:
+                a = a / prime[index]
+                result.append(prime[index])
+                index = index + 1
+                if len(prime) == index:
+                    prime = getPrime(prime, a)
+            elif len(prime) == index or (a / prime[index] < 1 and index >= 0 and a > 1):
+                index = 0
+            else:
+                break
+        print(result)
+        r = 1
+        for i in result:
+            r = r * i
+        print(r)
+    
+    
+    def hehe():
+        num = 9097423832296800
+        # num = 9127507905816300
+        print(num)
+        prime = [2]
+        res = []
+        while True:
+            if num % prime[-1]==0:
+                res.append(prime[-1])
+                num = num / prime[-1]
+                continue
+            if num == 1:
+                break
+            prime = getPrime(prime, num)
+        r = 1
+        print(res)
+        for i in res:
+            r = r * i
+        print(r)
+    
+    
+    if __name__ == '__main__':
+        # main()
+        hehe()
