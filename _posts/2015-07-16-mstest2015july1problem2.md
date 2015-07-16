@@ -52,7 +52,7 @@ $$
 则我们可以写出如下模型：
 
 $$
-\begin{aligned} Max: \Pi_1^N(q_i+1) \\\\
-s.t. : \Pi_1^i(N_i^{q_i}) < num \end{aligned}
+\begin{aligned} Max &: \Pi_1^N(q_i+1) \\\\
+s.t. &: \Pi_1^i(N_i^{q_i}) < num \end{aligned}
 $$
 
