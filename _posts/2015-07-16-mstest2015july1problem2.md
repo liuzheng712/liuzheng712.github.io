@@ -63,7 +63,7 @@ Max : \sum \log ( q_i + 1 ) \\\\
 s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
-由于$ q_i \in N^+ $，所以 $ Max: \sum \log (q_i + 1 ) ~ Max: \sum q_i $
+由于$ q_i \in N^+ $，所以 $ Max: \sum \log (q_i + 1 ) \simeq Max: \sum q_i $
 
 $$ 
 Max : \sum q_i \\\\
