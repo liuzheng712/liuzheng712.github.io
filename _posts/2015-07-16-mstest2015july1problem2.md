@@ -46,13 +46,13 @@ One line with an integer that is the answer.
 根据约数个数计算公式，我们可以得到
 
 $$
-\Pi_1^N(q_i+1)
+\\Pi_1^N(q_i+1)
 $$
 
 则我们可以写出如下模型：
 
 $$
-\begin{aligned} Max &: \Pi_1^N(q_i+1) \\\\
-s.t. &: \Pi_1^i(N_i^{q_i}) < num \end{aligned}
+Max : \Pi_1^N(q_i+1) \\\\
+s.t. : \Pi_1^i(N_i^{q_i}) < num 
 $$
 
