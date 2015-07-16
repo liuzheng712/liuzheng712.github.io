@@ -73,6 +73,8 @@ Max : \sum q_i \\\\
 s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
+结果么，还是不对，猿们讨论说是穷举，呵呵。这边主要还是一个非线性多目标规划问题的求解方法。
+
     def getPrime(prime, num):
         res = prime[-1]
         while res < num:
