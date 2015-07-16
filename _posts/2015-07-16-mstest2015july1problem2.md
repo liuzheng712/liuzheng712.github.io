@@ -46,14 +46,14 @@ One line with an integer that is the answer.
 根据约数个数计算公式，我们可以得到
 
 $$ 
-\Pi_1 ^N ( q_i + 1 )
+\prod_1 ^N ( q_i + 1 )
 $$
 
 则我们可以写出如下模型：
 
 $$ 
-Max : \Pi_1 ^N ( q_i + 1 ) \\\\
-s.t. : \Pi_1 ^N ( N_i ^{q_i} ) < num 
+Max : \prod_1 ^N ( q_i + 1 ) \\\\
+s.t. : \prod_1 ^N ( N_i ^{q_i} ) < num 
 $$
 
 两边取对数得
