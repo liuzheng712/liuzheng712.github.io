@@ -46,7 +46,7 @@ One line with an integer that is the answer.
 根据约数个数计算公式，我们可以得到
 
 $$ 
-Pi_1^N(q_i+1)
+\begin{equation} Pi_1^N(q_i+1) \end{equation}
 $$
 
 则我们可以写出如下模型：
