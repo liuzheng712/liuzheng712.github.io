@@ -56,3 +56,9 @@ Max : \Pi_1^N(q_i+1) \\\\
 s.t. : \Pi_1^i(N_i^{q_i}) < num 
 $$
 
+$$ 
+\begin{aligned} \dot{x} &= \sigma(y-x) \\\\
+\dot{y} &= \rho x - y - xz \\\\
+\dot{z} &= -\beta z + xy \end{aligned}
+$$
+
