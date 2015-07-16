@@ -53,6 +53,14 @@ $$
 
 $$ 
 Max : \Pi_1 ^N ( q_i + 1 ) \\\\
-s.t. : \Pi_1 ^i ( N_i ^{q_i} ) < num 
+s.t. : \Pi_1 ^N ( N_i ^{q_i} ) < num 
 $$
+
+两边取对数得
+
+$$ 
+Max : \Sum \log ( q_i + 1 ) \\\\
+s.t. : \Sum q_i \log ( N_i ) < \log ( num ) 
+$$
+
 
