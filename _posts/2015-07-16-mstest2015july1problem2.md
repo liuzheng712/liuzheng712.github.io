@@ -59,8 +59,8 @@ $$
 两边取对数得
 
 $$ 
-Max : \Sum \log ( q_i + 1 ) \\\\
-s.t. : \Sum q_i \log ( N_i ) < \log ( num ) 
+Max : \sum \log ( q_i + 1 ) \\\\
+s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
 
