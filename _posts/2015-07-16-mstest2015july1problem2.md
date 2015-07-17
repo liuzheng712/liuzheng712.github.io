@@ -63,13 +63,13 @@ Max : \sum \log ( q_i + 1 ) \\\\
 s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
-由于$ q_i \in N^+ $，所以 $ Max: \sum \log (q_i + 1 ) \simeq Max: \sum q_i $
+由于$ q_i \in N^+ $，所以 $ Max: \sum \log (q_i + 1 ) \simeq Max: \sum q_i $ ， 验算发现这步不对。。。
 
 当然，要找到符合题意的结果还需要加一个min
 
 $$ 
 Min : \sum q_i \log ( N_i ) \\\\ 
-Max : \sum q_i \\\\
+Max : \sum \log ( q_i + 1 ) \\\\
 s.t. : \sum q_i \log ( N_i ) < \log ( num ) 
 $$
 
