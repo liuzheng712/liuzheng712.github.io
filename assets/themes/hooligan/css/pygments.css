@@ -40,6 +40,7 @@
 .mf { color: #ae81ff } /* Literal.Number.Float */
 .mh { color: #ae81ff } /* Literal.Number.Hex */
 .mi { color: #ae81ff } /* Literal.Number.Integer */
+.mn { color: #ae81ff } /* Literal.Number.Integer Number liuzheng*/
 .mo { color: #ae81ff } /* Literal.Number.Oct */
 .sb { color: #e6db74 } /* Literal.String.Backtick */
 .sc { color: #e6db74 } /* Literal.String.Char */
