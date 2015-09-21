@@ -117,7 +117,7 @@ vnc安装也是一条命令的事情。。。
     #echo "Download speed : $cache "
     echo "I/O speed : $io"
 
-结果如下图所示，彩色的是宿主机
+结果如下图所示，彩色的是宿主机,IO和CPU frequency 有点纠结，IO居然下降这么多也是醉了，CPU应该是系统二。。。
 
 ![](/imgs/2015-09-20-01.png)
 ![](/imgs/2015-09-20-02.png)
