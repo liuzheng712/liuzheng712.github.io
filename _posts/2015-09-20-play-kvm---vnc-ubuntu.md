@@ -52,15 +52,26 @@ vnc安装也是一条命令的事情。。。
 
 在其后追加如下内容
 
+    auto tap0
+    iface tap0 inet manual
+    up ifconfig $IFACE 0.0.0.0 up
+    down ifconfig $IFACE down
+    tunctl_user liuzheng # 这里填你自己的用户名
+
     auto br0
     iface br0 inet dhcp
-    bridge_ports em1
+    bridge_ports em1 tap0
+    #bridge_stp off # 这里注释的原因在参考文献6
+    bridge_fd 0
+    bridge_maxwait 0
+
+关于网桥的配置我转了，请参考2015-09-21的文章
 
 保存，重起网卡设置
 
-    sudo /sbin/ifup br0 # 激活br0
+    sudo /sbin/ifup tap0
+    sudo /sbin/ifup br0
     sudo /etc/init.d/networking restart
-
 
 # 新建虚机
 
@@ -70,16 +81,18 @@ vnc安装也是一条命令的事情。。。
 
     sudo qemu-system-x86_64 \
          -m 1024 \ # set memery with 1024M
-         -smp 2 \ use 2 CPU Processes , -smp cores=2,threads=1,sockets=1
-         -hda ./ubuntu.img \ choose img file
-         -localtime \ use localtime , if dont it will bring problem
+         -smp 2 \ # use 2 CPU Processes , -smp cores=2,threads=1,sockets=1
+         -hda ./ubuntu.img \ # choose img file
+         -localtime \ # use localtime , if dont it will bring problem
+         -clock rtc \ # if you do not use this, winXP will run slow
          -net nic,vlan=0,macaddr=aa-aa-aa-aa-aa-01 \
          -net tap,vlan=0,ifname=tap0,script=no \
          -boot c \ # boot from disk ,if -boot d will boot from cdrom
          # -cdrom /path/xxxx.iso \ # iso file
 
+当然，这边的注释需要去掉，我没找到好办法将参数和注释放一起。。。
 
-参考：
+# 参考：
 
 <http://www.havetheknowhow.com/Configure-the-server/Install-VNC.html>
 
@@ -88,3 +101,7 @@ vnc安装也是一条命令的事情。。。
 <http://wiki.ubuntu.org.cn/Kvm_%E7%BD%91%E7%BB%9C%E6%A1%A5%E6%8E%A5%E6%96%B9%E6%A1%88>
 
 <http://www.linux-kvm.org/page/Networking>
+
+<http://www.linuxdiyf.com/linux/13338.html>
+
+<http://blog.csdn.net/cybertan/article/details/8160102>
