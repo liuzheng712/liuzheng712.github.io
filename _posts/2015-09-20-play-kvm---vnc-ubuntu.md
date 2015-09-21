@@ -68,7 +68,16 @@ vnc安装也是一条命令的事情。。。
 
 创建虚机
 
-    sudo qemu-system-x86_64 -m 1024 -had ./ubuntu.img -localtime -net nic,vlan=0,macaddr=ff-ff-ff-ff-ff-01 -net
+    sudo qemu-system-x86_64 \
+         -m 1024 \ # set memery with 1024M
+         -smp 2 \ use 2 CPU Processes , -smp cores=2,threads=1,sockets=1
+         -hda ./ubuntu.img \ choose img file
+         -localtime \ use localtime , if dont it will bring problem
+         -net nic,vlan=0,macaddr=aa-aa-aa-aa-aa-01 \
+         -net tap,vlan=0,ifname=tap0,script=no \
+         -boot c \ # boot from disk ,if -boot d will boot from cdrom
+         # -cdrom /path/xxxx.iso \ # iso file
+
 
 参考：
 
@@ -77,3 +86,5 @@ vnc安装也是一条命令的事情。。。
 <http://blog.fens.me/vps-kvm/>
 
 <http://wiki.ubuntu.org.cn/Kvm_%E7%BD%91%E7%BB%9C%E6%A1%A5%E6%8E%A5%E6%96%B9%E6%A1%88>
+
+<http://www.linux-kvm.org/page/Networking>
