@@ -92,6 +92,36 @@ vnc安装也是一条命令的事情。。。
 
 当然，这边的注释需要去掉，我没找到好办法将参数和注释放一起。。。
 
+# 性能
+
+检测脚本如下，<http://www.chenjie.info/download/bench.sh>，对网络的部分进行了注释
+
+   
+    #!/bin/bash
+    #written chenjie.com
+    
+    cname=$(cat /proc/cpuinfo|grep name|head -1|awk '{ $1=$2=$3=""; print }')
+    cores=$(cat /proc/cpuinfo|grep MHz|wc -l)
+    freq=$(cat /proc/cpuinfo|grep MHz|head -1|awk '{ print $4 }')
+    tram=$(free -m | awk 'NR==2'|awk '{ print $2 }')
+    swap=$(free -m | awk 'NR==4'| awk '{ print $2 }')
+    up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
+    #cache=$((wget -O /dev/null http://cachefly.cachefly.net/100mb.test) 2>&1 | tail -2 | head -1 | awk '{print $3 $4 }')
+    io=$( (dd if=/dev/zero of=test_$$ bs=64k count=16k conv=fdatasync &&rm -f test_$$) 2>&1 | tail -1| awk '{ print $(NF-1) $NF }')
+    echo "CPU model : $cname"
+    echo "Number of cores : $cores"
+    echo "CPU frequency : $freq MHz"
+    echo "Total amount of ram : $tram MB"
+    echo "Total amount of swap : $swap MB"
+    echo "System uptime : $up"
+    #echo "Download speed : $cache "
+    echo "I/O speed : $io"
+
+结果如下图所示，彩色的是宿主机
+
+![](/imgs/2015-09-20-01.png)
+![](/imgs/2015-09-20-02.png)
+
 # 参考：
 
 <http://www.havetheknowhow.com/Configure-the-server/Install-VNC.html>
