@@ -2,8 +2,9 @@
     width: 100%;
 }
 
-#cbox, #cbox * {
+#cbox * {
     color: black;
+    border-color: white;
     text-shadow: none;
     -moz-box-shadow: none;
     -o-box-shadow: none;
