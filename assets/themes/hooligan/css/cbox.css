@@ -4,7 +4,6 @@
 
 #cbox, #cbox * {
     color: black;
-    border-color: white;
     text-shadow: none;
     -moz-box-shadow: none;
     -o-box-shadow: none;
@@ -22,6 +21,7 @@
 }
 
 .gist {
+    border-color: white;
     font-size: 16px;
     color: #333;
     direction: ltr;
