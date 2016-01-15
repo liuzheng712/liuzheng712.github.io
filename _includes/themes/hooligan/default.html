@@ -24,6 +24,7 @@
     <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/editor/0.1.0/editor.css">
 
     <!-- fav and touch icons -->
     <!-- Update these with your own images
@@ -39,18 +40,6 @@
 	tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] }
     });
 
-    </script>
-    <script type="text/javascript">
-        var duoshuoQuery = {short_name: "{{ site.JB.comments.duoshuo.short_name}}"};
-        (function () {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';
-            ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-                    || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
     </script>
 <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
 </head>
@@ -139,6 +128,14 @@
         </div>
     </div>
     <!-- /container -->
+<div id="cbox" data-gist="ee6ffe6c9f1ead666531" style="width: 50%">
+    <div style="border:1px solid #ddd;border-bottom:1px solid #ccc;border-radius:3px">
+        <input id="nick" type="text" placeholder="您的昵称，这将会显示在评论中" style="width:99%;border-radius:3px"/>
+        <input id="email" type="email" placeholder="留下您的邮箱，邮箱不会显示在评论中" style="width:99%;"/>
+        <textarea id="editor" placeholder="Content here ...."></textarea>
+    </div>
+</div>
+
 
     <div class="footer-push"></div>
 </div>
@@ -155,6 +152,9 @@
 </footer>
 
 <script src="http://upcdn.b0.upaiyun.com/libs/jqueryui/jquery.ui-1.7.2.min.js"></script>
+    <script src="//cdn.jsdelivr.net/editor/0.1.0/editor.js"></script>
+    <script src="//cdn.jsdelivr.net/editor/0.1.0/marked.js"></script>
+    <script src="{{ ASSET_PATH }}/js/cbox.js"></script>
 <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
 {% include JB/analytics %}

@@ -80,10 +80,10 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-     provider : duoshuo
-     duoshuo :
-       short_name : liuzheng712
+  #  comments :
+  #   provider : duoshuo
+  #   duoshuo :
+  #     short_name : liuzheng712
     # provider : disqus
     # disqus :
       # short_name : jekyllbootstrap
