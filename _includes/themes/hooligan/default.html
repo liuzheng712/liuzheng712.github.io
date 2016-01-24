@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css-social-buttons/css/zocial.stripped.css">
     <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/css/cbox.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/chat.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/editor/0.1.0/editor.css">
 
@@ -42,7 +42,9 @@
     });
 
     </script>
-<script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
+    <script src="{{ ASSET_PATH }}/js/jquery-1.12.0.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/moment.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/checktime.js"></script>
 </head>
 
 <body>
@@ -144,11 +146,95 @@
         </p>
     </div>
 </footer>
+<div class="lcb-liuzheng" ng-app="Chat" ng-controller="chatBoxCtrl">
+    <div class="lcb-chat">
+        <div class="lcb-chat-header" ng-click="toggle()">
+            <p>CBox</p>
+        </div>
+
+        <ul class="lcb-messages" aria-live="polite" style="height:{[{lcbMessagesHeight}]}px;">
+            <li class="lcb-message lcb-message-own " ng-repeat="msg in messages" data-owner="{[{msg.uid}]}">
+                <img class="lcb-message-avatar lcb-avatar lcb-room-poke"
+                     ng-src="{[{ msg.avatar }]}">
+
+                <div class="lcb-message-meta">
+                <span class="lcb-message-name">
+                    <span class="lcb-room-poke">
+                        <span class="lcb-message-displayname">
+                            {[{msg.nick}]}
+                        </span>
+                        <span class="lcb-message-username">
+                            @{[{msg.nick}]}
+                        </span>
+                    </span>
+                </span>
+                    <time class="lcb-message-time" title="{[{msg.timestamp}]}"></time>
+                    <div class="lcb-message-text">{[{msg.msg}]}</div>
+                </div>
+            </li>
+        </ul>
+        <div class="lcb-entry">
+            <textarea class="lcb-entry-input" placeholder="Got something to say?" autofocus ng-enter="sendMSG()"
+                      ng-model="msg"></textarea>
+            <button class="lcb-entry-button" aria-label="Send" ng-click="sendMSG()">
+                <i class="fa fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="lcb-room lcb-room-sidebar-opened">
+        <div class="lcb-room-sidebar">
+            <div class="lcb-room-sidebar-group lcb-room-sidebar-users">
+                <header class="lcb-room-sidebar-header">
+                    <h3 class="lcb-room-sidebar-heading">
+                        <i class="fa fa-users"></i> Who's Here({[{ online.length}]})
+                    </h3>
+                </header>
+                <ul class="lcb-room-sidebar-list">
+                    <li class="lcb-room-sidebar-item lcb-room-sidebar-user" ng-repeat="user in online"
+                        data-id="{[{user.uid}]}">
+                        <img class="lcb-avatar lcb-room-sidebar-user-avatar lcb-room-poke"
+                             ng-src="{[{user.avatar}]}">
+
+                        <div class="lcb-room-sidebar-user-meta lcb-room-poke">
+            <span class="lcb-room-sidebar-user-name">
+                {[{user.nick}]}
+            </span>
+            <span class="lcb-room-sidebar-user-username">
+                @{[{user.nick}]}
+            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="lcb-room-sidebar-group lcb-room-sidebar-files">
+                <header class="lcb-room-sidebar-header">
+                    <h3 class="lcb-room-sidebar-heading">
+                        <i class="fa fa-file-text"></i> My Info
+                    </h3>
+                </header>
+                <ul class="lcb-room-sidebar-list">
+                    <li class="lcb-room-sidebar-item lcb-room-sidebar-user" data-id="{[{me.uid}]}">
+                        <img class="lcb-avatar lcb-room-sidebar-user-avatar lcb-room-poke" ng-src="{[{me.avatar}]}">
+
+                        <div class="lcb-room-sidebar-user-meta lcb-room-poke">
+                            <input type="text" class="lcb-room-sidebar-user-name" ng-model="me.nick"
+                                   style="border: none" ng-enter="updateInfo()">
+                            <input type="email" class="lcb-room-sidebar-user-username" ng-model="me.email"
+                                   style="border:none;" ng-enter="updateInfo()">
+                        </div>
+                    </li>
+                </ul>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{ ASSET_PATH }}/js/angular.min.js"></script>
+<script src="{{ ASSET_PATH }}/js/chatjs.js"></script>
 
 <script src="http://upcdn.b0.upaiyun.com/libs/jqueryui/jquery.ui-1.7.2.min.js"></script>
-    <script src="//cdn.jsdelivr.net/editor/0.1.0/editor.js"></script>
-    <script src="//cdn.jsdelivr.net/editor/0.1.0/marked.js"></script>
-    <script src="{{ ASSET_PATH }}/js/cbox.js"></script>
 <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
 {% include JB/analytics %}
