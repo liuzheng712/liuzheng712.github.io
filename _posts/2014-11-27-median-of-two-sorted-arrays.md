@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [leetcode,python]
 ---
-{% include JB/setup %}
+
 
 这题<https://oj.leetcode.com/problems/median-of-two-sorted-arrays/>
 

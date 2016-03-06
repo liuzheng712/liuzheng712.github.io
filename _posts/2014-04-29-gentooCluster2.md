@@ -6,7 +6,7 @@ description: "Gentoo集群架设（2） 分布式编译emerge"
 category: study
 tags: [gentoo, 集群]
 ---
-{% include JB/setup %}
+
 
 主要使用到的是distcc这个分布式编译软件
 

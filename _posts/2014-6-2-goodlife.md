@@ -6,7 +6,7 @@ description: ""
 category: life
 tags: [life]
 ---
-{% include JB/setup %}
+
 
 
 1.去别人家里，不要坐在人家的床上 。

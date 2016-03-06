@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [docker]
 ---
-{% include JB/setup %}
+
 
 最近卸载了原先的 boot2docker 用上了 docker 1.9.0 感觉很高大上有木有！！！
 

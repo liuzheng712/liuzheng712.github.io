@@ -5,7 +5,7 @@ description: "don't be afriad"
 category: 
 tags: [读后感]
 ---
-{% include JB/setup %}
+
 
 许久没有写博文了，最近适逢亚马逊购书优惠，买了一摞闲书。
 

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [运维]
 ---
-{% include JB/setup %}
+
 
 今天经历了闰秒，好像很牛逼的样子。不过我胆子小，关了ntp服务。
 

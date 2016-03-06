@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [KVM]
 ---
-{% include JB/setup %}
+
 
 转: <http://www.pubyun.com/blog/cloud/kvm%E7%A3%81%E7%9B%98%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/>
 

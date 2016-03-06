@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 最近发现一个插件，[gooreplacer](https://chrome.google.com/webstore/detail/gooreplacer/jlmmdfhaddlgkgcigccmlfhapliiacoh)
 

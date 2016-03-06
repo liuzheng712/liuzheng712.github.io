@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [life]
 ---
-{% include JB/setup %}
+
 
 转自：<http://orthop.dxy.cn/article/15105?trace=related>
 # 第一部分 前言

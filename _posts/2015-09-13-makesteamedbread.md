@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [life]
 ---
-{% include JB/setup %}
+
 
 最近一周不断尝试做馒头，出发点很简单，体验一下生活，感受一下挥霍金钱背后的社会时间。
 

@@ -5,7 +5,7 @@ description: ""
 category:
 tags: [hadoop]
 ---
-{% include JB/setup %}
+
 
 由于各种“偷懒”，架设hadoop集群的时候按照正常步骤安装，最近发现日志里
 总有一堆的java报错，通过各方帖子了解是hadoop官方默认的是32位，而我这里

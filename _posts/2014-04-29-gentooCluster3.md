@@ -6,7 +6,7 @@ description: "Gentoo集群架设（3） 配置buildhost"
 category: study
 tags: [gentoo, 集群]
 ---
-{% include JB/setup %}
+
 
 前文已架设完毕gentoo的分布式编译集群，系统维护不可能每台机器都编译一次或者手动拷贝软件
 

@@ -5,7 +5,7 @@ description: "regionserver.HRegionServer: No master found; retry"
 category: 
 tags: [HBase]
 ---
-{% include JB/setup %}
+
 
 困扰一周的问题！！！已经有人提交过这个了
 <https://issues.apache.org/jira/browse/HBASE-3487>

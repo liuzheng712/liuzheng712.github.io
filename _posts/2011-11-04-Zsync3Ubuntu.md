@@ -6,7 +6,7 @@ description: "利用 Zsync 更新已有的 Ubuntu ISO 镜像"
 category: study
 tags: [转, Ubuntu]
 ---
-{% include JB/setup %}
+
 
 转自：<http://linuxtoy.org/archives/use-zsync-to-update-existing-iso-images.html>
 

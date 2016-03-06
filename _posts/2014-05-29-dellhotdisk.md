@@ -5,7 +5,7 @@ description: ""
 category: server
 tags: [Dell, Server, Disk]
 ---
-{% include JB/setup %}
+
 
 前日BOSS将硬盘取下倒腾了一下，然后插回服务器，一切看似如此淡定。
 

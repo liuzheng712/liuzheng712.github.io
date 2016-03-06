@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [life]
 ---
-{% include JB/setup %}
+
 
 转自：http://blog.douguo.com/?p=6677
 

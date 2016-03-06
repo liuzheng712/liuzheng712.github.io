@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [ubuntu, ppa]
 ---
-{% include JB/setup %}
+
 参考<http://askubuntu.com/questions/212132/i-cant-add-ppa-repository-behind-the-proxy>
 
     sudo add-apt-repository ppa:gnome3-team/gnome3

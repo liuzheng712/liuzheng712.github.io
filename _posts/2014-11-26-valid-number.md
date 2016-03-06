@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [leetcode,python]
 ---
-{% include JB/setup %}
+
 
 今天做了这题<https://oj.leetcode.com/problems/valid-number/>
 

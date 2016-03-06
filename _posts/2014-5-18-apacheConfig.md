@@ -6,7 +6,7 @@ description: "Apache Config 记录"
 category: study
 tags: [Apache]
 ---
-{% include JB/setup %}
+
 
 	ServerTokens OS　 `在44行 修改为：ServerTokens Prod （在出现错误页的时候不显示服务器操作系统的名称）`
 	KeepAlive Off `在76行 修改为：KeepAlive On （允许程序性联机）`

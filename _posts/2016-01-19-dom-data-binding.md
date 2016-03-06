@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [JavaScript]
 ---
-{% include JB/setup %}
+
 
 因为觉得AngularJS太重了，一般都会想尝试重新造轮子，先做一些基础调查吧。
 

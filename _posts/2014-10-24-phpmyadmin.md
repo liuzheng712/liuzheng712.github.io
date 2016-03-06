@@ -5,7 +5,7 @@ description: ""
 category:
 tags: [phpmyadmin]
 ---
-{% include JB/setup %}
+
 
 无聊要将phpmyadmin页面嵌入到某页面iframe中，做成统一的控制台管理界面，在此记录一下对phpmyadmin源代码的一些操作
 

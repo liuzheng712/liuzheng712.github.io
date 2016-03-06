@@ -4,7 +4,7 @@ title: "CentOS6 升级到 7"
 category: study
 tags: [study, 运维]
 ---
-{% include JB/setup %}
+
 
 CentOS 7 已经发布了，很多情况不允许重装系统，我这里就写一下 CentOS6 升级到 7 的过程以及注意点吧。
 

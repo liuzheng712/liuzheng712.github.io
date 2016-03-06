@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [keyboard]
 ---
-{% include JB/setup %}
+
 
 又蛋疼了，搜了一下单手机械键盘，搜到该帖 <http://tieba.baidu.com/p/2646628267#> ， 春心荡漾有木有！！！心想，自己学了这些个泛技术知识，应该足够做一个键盘了吧。春心荡漾！！！
 

@@ -5,7 +5,7 @@ description: ""
 category:
 tags: [Entrepreneurship]
 ---
-{% include JB/setup %}
+
 [转]<http://newshtml.iheima.com/2014/0810/144814.html>
 
 i黑马注：创业，本就是九死一生。以下是作者总结的创业过程中可能遇到的的合伙、翻脸、分赃、散伙等法则。

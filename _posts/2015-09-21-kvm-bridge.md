@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [KVM]
 ---
-{% include JB/setup %}
+
 转：<http://blog.csdn.net/cybertan/article/details/8160102>
 
 

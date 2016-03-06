@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 表示对微软不感冒，然后呢也没关注，今天看到同学在玩这题，感觉很好玩，就玩玩哈。
 

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [运维]
 ---
-{% include JB/setup %}
+
 <http://tldp.org/HOWTO/LVM-HOWTO/activatevgs.html>
 
 After rebooting the system or running vgchange -an, you will not be able to access your VGs and LVs. To reactivate the volume group, run:

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [idea]
 ---
-{% include JB/setup %}
+
 
 刚想到的，其实我可以不用树莓派做摄像头主机，直接用小本加上之前买的无线网络摄像头做
 

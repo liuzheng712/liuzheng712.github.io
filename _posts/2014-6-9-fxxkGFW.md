@@ -6,7 +6,7 @@ description: ""
 category: 技术
 tags: [技术]
 ---
-{% include JB/setup %}
+
 
 下文是本人午睡中，口水流到键盘里造成键盘电路故障所产生的文字，本人对此不拥有各种权利和义务。
 

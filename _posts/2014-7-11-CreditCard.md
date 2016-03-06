@@ -6,7 +6,7 @@ description: "各大银行信用卡指南"
 category: study
 tags: [转, 信用卡]
 ---
-{% include JB/setup %}
+
 
 
 先申请4大行的信用卡.

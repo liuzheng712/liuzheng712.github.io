@@ -5,7 +5,7 @@ description: ""
 category: proxy
 tags: [proxy, goagent]
 ---
-{% include JB/setup %}
+
 
 找到.gitconfig隐藏目录，添加两行设置
 

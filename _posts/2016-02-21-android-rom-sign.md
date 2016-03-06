@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [Android]
 ---
-{% include JB/setup %}
+
 
 # Android 手记
 参考：<http://stackoverflow.com/questions/16316526/how-to-sign-android-rom-zip-file>

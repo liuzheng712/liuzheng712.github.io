@@ -5,7 +5,7 @@ description: ""
 category:
 tags: []
 ---
-{% include JB/setup %}
+
 
 实验室机器是 Centos6 yum完全不能升级成Python2.7，so 这几日
 看了一些Python升级的东西。

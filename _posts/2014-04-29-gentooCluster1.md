@@ -6,7 +6,7 @@ description: "Gentoo集群架设（1） 安装系统"
 category: study
 tags: [gentoo, 集群]
 ---
-{% include JB/setup %}
+
 
 
 ## gentoo install

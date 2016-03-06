@@ -6,7 +6,7 @@ description: "Windows Linux 时时间不一致 相差8小时"
 category: windows
 tags: [windows, linux, timezone]
 ---
-{% include JB/setup %}
+
 
 让Windows把硬件时间当作UTC，与Linux/Unix/Mac保持一致。
 

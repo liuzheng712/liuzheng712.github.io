@@ -5,7 +5,7 @@ description: ""
 category: code
 tags: [代码规范, Google, HTML/CSS, style guide]
 ---
-{% include JB/setup %}
+
 
 参译：<https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml>
 

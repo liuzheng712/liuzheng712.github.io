@@ -6,7 +6,7 @@ description: "MATLAB PageRank"
 category: study
 tags: [MATLAB, PageRank]
 ---
-{% include JB/setup %}
+
 
 从网上找到 [Page-Rank-Matlab-Code](http://people.revoledu.com/kardi/tutorial/PageRank/Page-Rank-Matlab-Code.html) 提及 MATLAB 的 PageRank 代码，使用 `profile viewer` 发现有一段 `for` 效率极低
 

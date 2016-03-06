@@ -5,7 +5,7 @@ description: ""
 category:
 tags: [SA]
 ---
-{% include JB/setup %}
+
 
 准备开始对实验室的集群重装，今天先拉出一台机器做前期调试
 

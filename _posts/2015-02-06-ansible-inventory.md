@@ -5,7 +5,7 @@ description: "Ansible Inventory"
 category: 
 tags: [SA]
 ---
-{% include JB/setup %}
+
 
 参考：<http://docs.ansible.com/intro_inventory.html>
 

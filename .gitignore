@@ -2,6 +2,9 @@ _site/*
 .idea/*
 package.json
 _theme_packages/*
+_site
+.sass-cache
+.jekyll-metadata
 
 Thumbs.db
 .DS_Store

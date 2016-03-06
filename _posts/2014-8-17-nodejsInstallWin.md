@@ -6,7 +6,7 @@ description: ""
 category: Node
 tags: [Node, guide]
 ---
-{% include JB/setup %}
+
 
 # 安装 Node 环境
 ## 下载NodeJs

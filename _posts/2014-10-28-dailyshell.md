@@ -5,7 +5,7 @@ description: "Daily Shell"
 category: dailyShell
 tags: [dailyShell]
 ---
-{% include JB/setup %}
+
 
 shell变量
 

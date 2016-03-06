@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [sqlmap, hack]
 ---
-{% include JB/setup %}
+
 以下内容高危，如你知道密码，请输入
 
 <div style="display:none">

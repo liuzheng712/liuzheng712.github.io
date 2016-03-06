@@ -5,7 +5,7 @@ description: "Hadoop with Python 遇到的问题"
 category: Hadoop
 tags: ['Hadoop','Python']
 ---
-{% include JB/setup %}
+
 
 昨天使用了 Python 折腾　Hadoop ，遇到一个神经的问题，纠结了一整天
 

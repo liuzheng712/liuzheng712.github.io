@@ -6,7 +6,7 @@ description: "超市里的潜规则"
 category: life
 tags: [生活]
 ---
-{% include JB/setup %}
+
 
 # 超市里的潜规则！第一条就比较实用，每次去买牛奶，都要往深处扒拉……
 

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [sql]
 ---
-{% include JB/setup %}
+
 转自:<http://sh4dow.lofter.com/post/395c80_121497d>
 
 # 基本的注入步骤：

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [Linux, 性能监控工具]
 ---
-{% include JB/setup %}
+
 
 原文：http://linoxide.com/monitoring-2/linux-performance-monitoring-tools/作者： Adrian Dinu
 

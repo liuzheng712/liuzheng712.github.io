@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [KVM]
 ---
-{% include JB/setup %}
+
 
 之前有进行过ubuntu server的KVM安装，不过似乎没有记录下来...
 

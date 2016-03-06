@@ -5,7 +5,7 @@ description: ""
 category:
 tags: [life]
 ---
-{% include JB/setup %}
+
 转自：<http://t66y.com/htm_data/7/1501/1343457.html>
 上大学当然是有用的，不然为什么每年大家都挤破了头上大学，但大学到底有什么用？
 

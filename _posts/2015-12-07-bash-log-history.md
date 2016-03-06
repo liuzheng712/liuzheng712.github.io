@@ -5,7 +5,7 @@ description: "简单的Linux系统用户操作行为管理方案"
 category: 
 tags: [Linux]
 ---
-{% include JB/setup %}
+
 转自：http://www.freeoa.net/osuport/sysec/simple-linux-sys-users-operate-manage-solution_1880.html
 
 

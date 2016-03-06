@@ -5,7 +5,7 @@ description: "AngularJS"
 category: 
 tags: [AngularJS]
 ---
-{% include JB/setup %}
+
 
 ## 页面速度
 

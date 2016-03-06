@@ -5,7 +5,7 @@ description: "你真的会开自动档车吗???"
 category: car
 tags: [car]
 ---
-{% include JB/setup %}
+
 from:/htm_data/7/1409/1228151.html
 
 你是不是觉得自动档车 简直就是"傻瓜"车 踩油门就走..... ......真方便~ 可你真的了解自动档车吗

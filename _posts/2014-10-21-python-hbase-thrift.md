@@ -5,7 +5,7 @@ description: "Python, Hbase, Thrift"
 category: hbase
 tags: [hbase]
 ---
-{% include JB/setup %}
+
 
 # 使用 Python 对 Hbase 做操作初期配置
 
