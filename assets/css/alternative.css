@@ -2365,3 +2365,7 @@ p.hoverbawah {
     position: relative;
     top: -5px;
 }
+.read-more:hover{
+    background-color: crimson;
+    color: white;
+}

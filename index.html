@@ -16,7 +16,7 @@ layout: default
         <h2 class="post-title"><a id="route" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>{{ post.content | strip_html | truncatewords:45}} <a id="route" class="read-more" href="{{ post.url | prepend: site.baseurl }}">»</a></p>
+        <p>{{ post.excerpt | truncatewords:45}} <a id="route" class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More...</a></p>
     </section>
     
     </div>
