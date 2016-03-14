@@ -57,7 +57,7 @@ img {
     vertical-align: middle;
 }
 
-figure>img {
+figure > img {
     display: block;
 }
 
@@ -70,8 +70,8 @@ ol {
     margin-left: 30px;
 }
 
-li>ul,
-li>ol {
+li > ul,
+li > ol {
     margin-bottom: 0;
 }
 
@@ -89,7 +89,8 @@ a {
     text-decoration: none;
 }
 
-a:visited {}
+a:visited {
+}
 
 blockquote {
     color: #828282;
@@ -100,7 +101,7 @@ blockquote {
     font-style: italic;
 }
 
-blockquote>:last-child {
+blockquote > :last-child {
     margin-bottom: 0;
 }
 
@@ -109,11 +110,13 @@ code {
     font-size: 15px;
     color: black;
 }
+
 p code {
     font-size: 15px;
     background-color: #222222;
     color: chartreuse;
 }
+
 code {
     padding: 1px 5px;
 }
@@ -123,7 +126,7 @@ pre {
     overflow-x: auto;
 }
 
-pre>code {
+pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
@@ -154,7 +157,7 @@ pre>code {
     clear: both;
 }
 
-.icon>svg {
+.icon > svg {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -205,12 +208,14 @@ pre>code {
         border-bottom: 1px solid #e8e8e8;
         padding: 0 0 15px;
     }
+
     .tags-date {
         float: right;
         margin-top: -40px;
         font-size: 12px;
         color: #828282;
     }
+
     .post {
         position: relative;
         margin: 1.9rem auto;
@@ -220,11 +225,13 @@ pre>code {
         background: #3E3E3E;
         /* padding: 20px; */
     }
+
     .home {
         margin-right: 18.5em;
         border-right: 1px solid #e8e8e8;
         padding-right: 30px;
     }
+
     .widgets {
         position: absolute;
         top: 0;
@@ -232,16 +239,20 @@ pre>code {
         width: 18.75em;
         padding-botom: 0;
     }
+
     .post-header .post-title a {
         font-size: 1em;
     }
+
     .post-excerpt p {
         font-size: 16px;
     }
+
     .post-meta {
         font-size: 12px;
         color: #fff;
     }
+
     .pagination {
         padding-bottom: 40px;
     }
@@ -458,6 +469,7 @@ ul {
 .site-nav .page-link:not(:last-child) {
     margin-right: 20px;
 }
+
 .trigger .active {
     background: #1F3F61;
 }
@@ -472,9 +484,11 @@ ul {
         border-radius: 5px;
         text-align: right;
     }
+
     .site-nav a.page-link:hover:after {
         border-bottom: 2px solid transparent;
     }
+
     .site-nav .menu-icon {
         display: block;
         float: right;
@@ -484,10 +498,12 @@ ul {
         padding-top: 10px;
         text-align: center;
     }
-    .site-nav .menu-icon>svg {
+
+    .site-nav .menu-icon > svg {
         width: 18px;
         height: 15px;
     }
+
     .site-nav .trigger {
         clear: both;
         display: none;
@@ -496,11 +512,13 @@ ul {
         position: relative;
         background-color: #fdfdfd;
     }
+
     .site-nav .page-link {
         display: block;
         padding: 5px 10px;
         margin-left: 20px;
     }
+
     .site-nav .page-link:not(:last-child) {
         margin-right: 0;
     }
@@ -535,37 +553,38 @@ ul {
 }
 
 .footer-col-1 {
-    width: -webkit-calc(40% - (30px/ 2));
-    width: calc(40% - (30px/ 2));
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(30% - (30px/ 2));
-    width: calc(30% - (30px/ 2));
+    width: -webkit-calc(30% - (30px / 2));
+    width: calc(30% - (30px / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (30px/ 2));
-    width: calc(30% - (30px/ 2));
+    width: -webkit-calc(45% - (30px / 2));
+    width: calc(30% - (30px / 2));
 }
 
 @media screen and (max-width: 800px) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (30px/ 2));
-        width: calc(50% - (30px/ 2));
+        width: -webkit-calc(50% - (30px / 2));
+        width: calc(50% - (30px / 2));
     }
+
     .footer-col-3 {
-        width: -webkit-calc(100% - (30px/ 2));
-        width: calc(100% - (30px/ 2));
+        width: -webkit-calc(100% - (30px / 2));
+        width: calc(100% - (30px / 2));
     }
 }
 
 @media screen and (max-width: 600px) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (30px/ 2));
-        width: calc(100% - (30px/ 2));
+        width: -webkit-calc(100% - (30px / 2));
+        width: calc(100% - (30px / 2));
     }
 }
 
@@ -593,7 +612,7 @@ ul {
     list-style: none;
 }
 
-.post-list>li {
+.post-list > li {
     margin-bottom: 30px;
 }
 
@@ -612,8 +631,9 @@ ul {
     padding: 15px 20px 20px 20px;
     height: 30px;
 }
+
 .inpost-title {
-        font-size: 25px;
+    font-size: 25px;
     letter-spacing: -1px;
     float: left;
 }
@@ -623,8 +643,9 @@ ul {
     letter-spacing: -1px;
     line-height: 1;
     color: #fff;
-   
+
 }
+
 @media screen and (max-width: 800px) {
     .post-title {
         font-size: 24px;
@@ -923,111 +944,138 @@ ul {
         position: relative;
         float: left;
     }
+
     .small-1 {
         position: relative;
         width: 8.33333%;
     }
+
     .small-2 {
         position: relative;
         width: 16.66667%;
     }
+
     .small-3 {
         position: relative;
         width: 25%;
     }
+
     .small-4 {
         position: relative;
         width: 33.33333%;
     }
+
     .small-5 {
         position: relative;
         width: 41.66667%;
     }
+
     .small-6 {
         position: relative;
         width: 50%;
     }
+
     .small-7 {
         position: relative;
         width: 58.33333%;
     }
+
     .small-8 {
         position: relative;
         width: 66.66667%;
     }
+
     .small-9 {
         position: relative;
         width: 75%;
     }
+
     .small-10 {
         position: relative;
         width: 83.33333%;
     }
+
     .small-11 {
         position: relative;
         width: 91.66667%;
     }
+
     .small-12 {
         position: relative;
         width: 100%;
     }
+
     .small-offset-0 {
         position: relative;
         margin-left: 0%;
     }
+
     .small-offset-1 {
         position: relative;
         margin-left: 8.33333%;
     }
+
     .small-offset-2 {
         position: relative;
         margin-left: 16.66667%;
     }
+
     .small-offset-3 {
         position: relative;
         margin-left: 25%;
     }
+
     .small-offset-4 {
         position: relative;
         margin-left: 33.33333%;
     }
+
     .small-offset-5 {
         position: relative;
         margin-left: 41.66667%;
     }
+
     .small-offset-6 {
         position: relative;
         margin-left: 50%;
     }
+
     .small-offset-7 {
         position: relative;
         margin-left: 58.33333%;
     }
+
     .small-offset-8 {
         position: relative;
         margin-left: 66.66667%;
     }
+
     .small-offset-9 {
         position: relative;
         margin-left: 75%;
     }
+
     .small-offset-10 {
         position: relative;
         margin-left: 83.33333%;
     }
-    [class*="column"]+[class*="column"]:last-child {
+
+    [class*="column"] + [class*="column"]:last-child {
         float: right;
     }
-    [class*="column"]+[class*="column"].end {
+
+    [class*="column"] + [class*="column"].end {
         float: left;
     }
+
     .column.small-centered,
     .columns.small-centered {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        float: none!important;
+        float: none !important;
     }
+
     .samping {
         border-right: 0;
         padding-right: 0;
@@ -1040,229 +1088,278 @@ ul {
         padding-right: 35px;
         padding-bottom: 20px;
     }
+
     .large-1 {
         position: relative;
         width: 8.33333%;
     }
+
     .large-2 {
         position: relative;
         width: 16.66667%;
     }
+
     .large-3 {
         position: relative;
         width: 25%;
     }
+
     .large-4 {
         position: relative;
         width: 33.33333%;
     }
+
     .large-5 {
         position: relative;
         width: 41.66667%;
     }
+
     .large-6 {
         position: relative;
         width: 50%;
     }
+
     .large-7 {
         position: relative;
         width: 58.33333%;
         min-height: 40em;
     }
+
     .large-8 {
         position: relative;
         width: 66.66667%;
     }
+
     .large-9 {
         position: relative;
         width: 75%;
     }
+
     .large-10 {
         position: relative;
         width: 83.33333%;
     }
+
     .large-11 {
         position: relative;
         width: 91.66667%;
     }
+
     .large-12 {
         position: relative;
         width: 100%;
     }
+
     .row .large-offset-0 {
         position: relative;
         margin-left: 0%;
     }
+
     .row .large-offset-1 {
         position: relative;
         margin-left: 8.33333%;
     }
+
     .row .large-offset-2 {
         position: relative;
         margin-left: 16.66667%;
     }
+
     .row .large-offset-3 {
         position: relative;
         margin-left: 25%;
     }
+
     .row .large-offset-4 {
         position: relative;
         margin-left: 33.33333%;
     }
+
     .row .large-offset-5 {
         position: relative;
         margin-left: 41.66667%;
     }
+
     .row .large-offset-6 {
         position: relative;
         margin-left: 50%;
     }
+
     .row .large-offset-7 {
         position: relative;
         margin-left: 58.33333%;
     }
+
     .row .large-offset-8 {
         position: relative;
         margin-left: 66.66667%;
     }
+
     .row .large-offset-9 {
         position: relative;
         margin-left: 75%;
     }
+
     .row .large-offset-10 {
         position: relative;
         margin-left: 83.33333%;
     }
+
     .row .large-offset-11 {
         position: relative;
         margin-left: 91.66667%;
     }
+
     .push-1 {
         position: relative;
         left: 8.33333%;
         right: auto;
     }
+
     .pull-1 {
         position: relative;
         right: 8.33333%;
         left: auto;
     }
+
     .push-2 {
         position: relative;
         left: 16.66667%;
         right: auto;
     }
+
     .pull-2 {
         position: relative;
         right: 16.66667%;
         left: auto;
     }
+
     .push-3 {
         position: relative;
         left: 25%;
         right: auto;
     }
+
     .pull-3 {
         position: relative;
         right: 25%;
         left: auto;
     }
+
     .push-4 {
         position: relative;
         left: 33.33333%;
         right: auto;
     }
+
     .pull-4 {
         position: relative;
         right: 33.33333%;
         left: auto;
     }
+
     .push-5 {
         position: relative;
         left: 41.66667%;
         right: auto;
     }
+
     .pull-5 {
         position: relative;
         right: 41.66667%;
         left: auto;
     }
+
     .push-6 {
         position: relative;
         left: 50%;
         right: auto;
     }
+
     .pull-6 {
         position: relative;
         right: 50%;
         left: auto;
     }
+
     .push-7 {
         position: relative;
         left: 58.33333%;
         right: auto;
     }
+
     .pull-7 {
         position: relative;
         right: 58.33333%;
         left: auto;
     }
+
     .push-8 {
         position: relative;
         left: 66.66667%;
         right: auto;
     }
+
     .pull-8 {
         position: relative;
         right: 66.66667%;
         left: auto;
     }
+
     .push-9 {
         position: relative;
         left: 75%;
         right: auto;
     }
+
     .pull-9 {
         position: relative;
         right: 75%;
         left: auto;
     }
+
     .push-10 {
         position: relative;
         left: 83.33333%;
         right: auto;
     }
+
     .pull-10 {
         position: relative;
         right: 83.33333%;
         left: auto;
     }
+
     .push-11 {
         position: relative;
         left: 91.66667%;
         right: auto;
     }
+
     .pull-11 {
         position: relative;
         right: 91.66667%;
         left: auto;
     }
+
     .column.large-centered,
     .columns.large-centered {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        float: none!important;
+        float: none !important;
     }
+
     .column.large-uncentered,
     .columns.large-uncentered {
         margin-left: 0;
         margin-right: 0;
-        float: left!important;
+        float: left !important;
     }
+
     .column.large-uncentered.opposite,
     .columns.large-uncentered.opposite {
-        float: right!important;
+        float: right !important;
     }
 }
 
@@ -1298,8 +1395,6 @@ ul {
     float: left;
 }
 
-
-
 @media screen and (min-width: 768px) {
     .wf-container {
         width: 750px;
@@ -1329,6 +1424,7 @@ ul {
     position: relative;
     min-width: 110px;
 }
+
 .easy-autocomplete-container ul:after {
     content: '';
     width: 0;
@@ -2015,10 +2111,12 @@ ul {
 .highlight .il {
     color: #099;
 }
+
 .badanwidget {
     padding: 0px 15px 0px;
 }
-  .cssload-loader {
+
+.cssload-loader {
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -2028,344 +2126,404 @@ ul {
     vertical-align: middle;
     background: rgb(255, 255, 255);
 }
+
 .cssload-loader,
 .cssload-loader:before,
 .cssload-loader:after {
-		animation: 1.15s infinite ease-in-out;
-		-o-animation: 1.15s infinite ease-in-out;
-		-ms-animation: 1.15s infinite ease-in-out;
-		-webkit-animation: 1.15s infinite ease-in-out;
-		-moz-animation: 1.15s infinite ease-in-out;
+    animation: 1.15s infinite ease-in-out;
+    -o-animation: 1.15s infinite ease-in-out;
+    -ms-animation: 1.15s infinite ease-in-out;
+    -webkit-animation: 1.15s infinite ease-in-out;
+    -moz-animation: 1.15s infinite ease-in-out;
 }
+
 .cssload-loader:before,
 .cssload-loader:after {
-		width: 100%; 
-		height: 100%;
-		border-radius: 50%;
-		position: absolute;
-		top: 0;
-		left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.cssload-loader { animation-name: cssload-loader;
-		-o-animation-name: cssload-loader;
-		-ms-animation-name: cssload-loader;
-		-webkit-animation-name: cssload-loader;
-		-moz-animation-name: cssload-loader; }
-
+.cssload-loader {
+    animation-name: cssload-loader;
+    -o-animation-name: cssload-loader;
+    -ms-animation-name: cssload-loader;
+    -webkit-animation-name: cssload-loader;
+    -moz-animation-name: cssload-loader;
+}
 
 @keyframes cssload-loader {
-		from { transform: scale(0); opacity: 1; }
-		to	 { transform: scale(1); opacity: 0; }
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
 
 @-o-keyframes cssload-loader {
-		from { -o-transform: scale(0); opacity: 1; }
-		to	 { -o-transform: scale(1); opacity: 0; }
+    from {
+        -o-transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        -o-transform: scale(1);
+        opacity: 0;
+    }
 }
 
 @-ms-keyframes cssload-loader {
-		from { -ms-transform: scale(0); opacity: 1; }
-		to	 { -ms-transform: scale(1); opacity: 0; }
+    from {
+        -ms-transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        -ms-transform: scale(1);
+        opacity: 0;
+    }
 }
 
 @-webkit-keyframes cssload-loader {
-		from { -webkit-transform: scale(0); opacity: 1; }
-		to	 { -webkit-transform: scale(1); opacity: 0; }
+    from {
+        -webkit-transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
 }
 
 @-moz-keyframes cssload-loader {
-		from { -moz-transform: scale(0); opacity: 1; }
-		to	 { -moz-transform: scale(1); opacity: 0; }
+    from {
+        -moz-transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        -moz-transform: scale(1);
+        opacity: 0;
+    }
 }
 
 /* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
 .tooltipster-default {
-	/* border-radius: 5px; */
-	/* border: 2px solid #000; */
-	background: #4c4c4c;
-	color: #fff;
+    /* border-radius: 5px; */
+    /* border: 2px solid #000; */
+    background: #4c4c4c;
+    color: #fff;
 }
 
 /* Use this next selector to style things like font-size and line-height: */
 .tooltipster-default .tooltipster-content {
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	line-height: 16px;
-	/* padding: 8px 10px; */
-	overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    /* padding: 8px 10px; */
+    overflow: hidden;
 }
 
 /* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
 .tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
-	border-color: #222222;
+    border-color: #222222;
 }
-
 
 /* If you're using the icon option, use this next selector to style them */
 .tooltipster-icon {
-	cursor: help;
-	margin-left: 4px;
+    cursor: help;
+    margin-left: 4px;
 }
-
-
-
-
-
-
-
 
 /* This is the base styling required to make all Tooltipsters work */
 .tooltipster-base {
-	padding: 0;
-	font-size: 0;
-	line-height: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 9999999;
-	pointer-events: none;
-	max-width: 250px;
-	overflow: visible;
-	    
-}
-.tooltipster-base .tooltipster-content {
-	overflow: hidden;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999999;
+    pointer-events: none;
+    max-width: 250px;
+    overflow: visible;
+
 }
 
+.tooltipster-base .tooltipster-content {
+    overflow: hidden;
+}
 
 /* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
 .tooltipster-arrow {
-	display: block;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
+
 .tooltipster-arrow span, .tooltipster-arrow-border {
-	display: block;
-	width: 0; 
-	height: 0;
-	position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
 }
+
 .tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
-	border-left: 8px solid transparent !important;
-	border-right: 8px solid transparent !important;
-	border-top: 8px solid;
-	bottom: -7px;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-top: 8px solid;
+    bottom: -7px;
 }
+
 .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
-	border-left: 9px solid transparent !important;
-	border-right: 9px solid transparent !important;
-	border-top: 9px solid;
-	bottom: -7px;
+    border-left: 9px solid transparent !important;
+    border-right: 9px solid transparent !important;
+    border-top: 9px solid;
+    bottom: -7px;
 }
 
 .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
-	border-left: 8px solid transparent !important;
-	border-right: 8px solid transparent !important;
-	border-bottom: 8px solid;
-	top: -7px;
-}
-.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
-	border-left: 9px solid transparent !important;
-	border-right: 9px solid transparent !important;
-	border-bottom: 9px solid;
-	top: -7px;
-}
-.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-}
-.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
-	left: 6px;
-}
-.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
-	left: 5px;
-}
-.tooltipster-arrow-top-right span,  .tooltipster-arrow-bottom-right span {
-	right: 6px;
-}
-.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
-	right: 5px;
-}
-.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
-	border-top: 8px solid transparent !important;
-	border-bottom: 8px solid transparent !important; 
-	border-left: 8px solid;
-	top: 50%;
-	margin-top: -7px;
-	right: -7px;
-}
-.tooltipster-arrow-left .tooltipster-arrow-border {
-	border-top: 9px solid transparent !important;
-	border-bottom: 9px solid transparent !important; 
-	border-left: 9px solid;
-	margin-top: -8px;
-}
-.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
-	border-top: 8px solid transparent !important;
-	border-bottom: 8px solid transparent !important;
-	border-right: 8px solid;
-	top: 50%;
-	margin-top: -7px;
-	left: -7px;
-}
-.tooltipster-arrow-right .tooltipster-arrow-border {
-	border-top: 9px solid transparent !important;
-	border-bottom: 9px solid transparent !important;
-	border-right: 9px solid;
-	margin-top: -8px;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-bottom: 8px solid;
+    top: -7px;
 }
 
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+    border-left: 9px solid transparent !important;
+    border-right: 9px solid transparent !important;
+    border-bottom: 9px solid;
+    top: -7px;
+}
+
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+    left: 6px;
+}
+
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+    left: 5px;
+}
+
+.tooltipster-arrow-top-right span, .tooltipster-arrow-bottom-right span {
+    right: 6px;
+}
+
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+    right: 5px;
+}
+
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-left: 8px solid;
+    top: 50%;
+    margin-top: -7px;
+    right: -7px;
+}
+
+.tooltipster-arrow-left .tooltipster-arrow-border {
+    border-top: 9px solid transparent !important;
+    border-bottom: 9px solid transparent !important;
+    border-left: 9px solid;
+    margin-top: -8px;
+}
+
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-right: 8px solid;
+    top: 50%;
+    margin-top: -7px;
+    left: -7px;
+}
+
+.tooltipster-arrow-right .tooltipster-arrow-border {
+    border-top: 9px solid transparent !important;
+    border-bottom: 9px solid transparent !important;
+    border-right: 9px solid;
+    margin-top: -8px;
+}
 
 /* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
 
 .tooltipster-fade {
-	opacity: 0;
-	-webkit-transition-property: opacity;
-	-moz-transition-property: opacity;
-	-o-transition-property: opacity;
-	-ms-transition-property: opacity;
-	transition-property: opacity;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
 }
+
 .tooltipster-fade-show {
-	opacity: 1;
+    opacity: 1;
 }
 
 .tooltipster-grow {
-	-webkit-transform: scale(0,0);
-	-moz-transform: scale(0,0);
-	-o-transform: scale(0,0);
-	-ms-transform: scale(0,0);
-	transform: scale(0,0);
-	-webkit-transition-property: -webkit-transform;
-	-moz-transition-property: -moz-transform;
-	-o-transition-property: -o-transform;
-	-ms-transition-property: -ms-transform;
-	transition-property: transform;
-	-webkit-backface-visibility: hidden;
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
 }
+
 .tooltipster-grow-show {
-	-webkit-transform: scale(1,1);
-	-moz-transform: scale(1,1);
-	-o-transform: scale(1,1);
-	-ms-transform: scale(1,1);
-	transform: scale(1,1);
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
 }
 
 .tooltipster-swing {
-	opacity: 0;
-	-webkit-transform: rotateZ(4deg);
-	-moz-transform: rotateZ(4deg);
-	-o-transform: rotateZ(4deg);
-	-ms-transform: rotateZ(4deg);
-	transform: rotateZ(4deg);
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform;
-	-o-transition-property: -o-transform;
-	-ms-transition-property: -ms-transform;
-	transition-property: transform;
+    opacity: 0;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -o-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    transform: rotateZ(4deg);
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
 }
+
 .tooltipster-swing-show {
-	opacity: 1;
-	-webkit-transform: rotateZ(0deg);
-	-moz-transform: rotateZ(0deg);
-	-o-transform: rotateZ(0deg);
-	-ms-transform: rotateZ(0deg);
-	transform: rotateZ(0deg);
-	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
-	-webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
-	-moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
-	-ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
-	-o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4); 
-	transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
 }
 
 .tooltipster-fall {
-	top: 0;
-	-webkit-transition-property: top;
-	-moz-transition-property: top;
-	-o-transition-property: top;
-	-ms-transition-property: top;
-	transition-property: top;
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
+    top: 0;
+    -webkit-transition-property: top;
+    -moz-transition-property: top;
+    -o-transition-property: top;
+    -ms-transition-property: top;
+    transition-property: top;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
 }
+
 .tooltipster-fall-show {
 }
+
 .tooltipster-fall.tooltipster-dying {
-	-webkit-transition-property: all;
-	-moz-transition-property: all;
-	-o-transition-property: all;
-	-ms-transition-property: all;
-	transition-property: all;
-	top: 0px !important;
-	opacity: 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    top: 0px !important;
+    opacity: 0;
 }
 
 .tooltipster-slide {
-	left: -40px;
-	-webkit-transition-property: left;
-	-moz-transition-property: left;
-	-o-transition-property: left;
-	-ms-transition-property: left;
-	transition-property: left;
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
-	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
-}
-.tooltipster-slide.tooltipster-slide-show {
-}
-.tooltipster-slide.tooltipster-dying {
-	-webkit-transition-property: all;
-	-moz-transition-property: all;
-	-o-transition-property: all;
-	-ms-transition-property: all;
-	transition-property: all;
-	left: 0px !important;
-	opacity: 0;
+    left: -40px;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    -ms-transition-property: left;
+    transition-property: left;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
 }
 
+.tooltipster-slide.tooltipster-slide-show {
+}
+
+.tooltipster-slide.tooltipster-dying {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    left: 0px !important;
+    opacity: 0;
+}
 
 /* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
 .tooltipster-content-changing {
-	opacity: 0.5;
-	-webkit-transform: scale(1.1, 1.1);
-	-moz-transform: scale(1.1, 1.1);
-	-o-transform: scale(1.1, 1.1);
-	-ms-transform: scale(1.1, 1.1);
-	transform: scale(1.1, 1.1);
+    opacity: 0.5;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
+
 p.hoveratas {
     background: #375a7f;
     padding: 10px 11px;
 }
+
 p.hoverbawah {
-        padding: 10px;
+    padding: 10px;
     margin-bottom: -5px;
     padding-top: 0px;
     position: relative;
     top: -5px;
 }
-.read-more:hover{
+
+.read-more:hover {
     background-color: crimson;
     color: white;
+}
+
+#countries {
+    border-color: #3E3E3E;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+    float: none;
+    padding: 6px 12px;
+    min-width: 293px;
+    background-color: #3E3E3E;
+    color: #fff;
+    padding: 0 0px 12px 0px;
+    outline: none;
 }
